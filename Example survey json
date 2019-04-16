@@ -1,0 +1,26 @@
+// Example 1
+{
+  "id":"",
+  "fields": [{
+    "type":"textEntry",
+    "label":"question title",
+    "placeholder":"entry placeholder",
+    "maxLength":100,
+    "minLength":50
+  }, {
+    "type":"dropdown",
+    "options":[{
+      "value":""
+    }, {
+      "value":""
+    }]
+  }]
+}
+
+// Example 2
+{
+  "id":"",
+  "title":"",
+  "description":"",
+  "fields":[],
+}
