@@ -6,7 +6,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-routes.router(app);
+// API root: /api/v1
+routes.router("/api/v1", app);
 
 var server = app.listen(3000, function () {
     console.log("app running on port", server.address().port);
