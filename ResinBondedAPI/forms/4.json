@@ -1,0 +1,115 @@
+{
+    "id": 4,
+    "name": "Training Comments",
+    "sections": [
+        {
+            "name": "job-id",
+            "type": "text",
+            "label": "Job ID Reference",
+            "description": "e.g. TN225HA001",
+            "placeholder": "Enter reference",
+            "options": "",
+            "required": true
+        },
+        {
+            "name": "materials-list",
+            "type": "list",
+            "label": "Materials covered securely",
+            "description": "Please add descriptive images",
+            "placeholder": "",
+            "options": {
+                "fields": [
+                    {
+                        "name": "material-image",
+                        "label": "Image",
+                        "type": "image"
+                    },
+                    {
+                        "name": "material-comments",
+                        "label": "Comments",
+                        "placeholder": "Enter comments",
+                        "type": "textarea"
+                    }
+                ],
+                "max": 10
+            },
+            "required": true
+        },
+        {
+            "name": "amount-trained",
+            "type": "list",
+            "label": "Trainees",
+            "description": "",
+            "placeholder": "",
+            "options": {
+                "fields": [
+                    {
+                        "name": "trainee-name",
+                        "label": "Trainee Name",
+                        "type": "text",
+                        "placeholder": "Enter name"
+                    },
+                    {
+                        "name": "trainee-comments",
+                        "label": "Comments",
+                        "placeholder": "Enter comments",
+                        "type": "textarea"
+                    }
+                ],
+                "max": 10
+            },
+            "required": true
+        },
+        {
+            "name": "work-standard",
+            "type": "textarea",
+            "label": "Standard and speed of work",
+            "description": "",
+            "placeholder": "Enter comments",
+            "options": "",
+            "required": true
+        },
+        {
+            "name": "further-training",
+            "type": "textarea",
+            "label": "Further training",
+            "description": "",
+            "placeholder": "Enter comments",
+            "options": "",
+            "required": false
+        },
+        {
+            "name": "commercial-prospects",
+            "type": "textarea",
+            "label": "Commercial prospects",
+            "description": "",
+            "placeholder": "Enter comments",
+            "options": "",
+            "required": false
+        },
+        {
+            "name": "training-images",
+            "type": "list",
+            "label": "Training images",
+            "description": "Please add descriptive images",
+            "placeholder": "",
+            "options": {
+                "fields": [
+                    {
+                        "name": "training-image",
+                        "label": "Image",
+                        "type": "image"
+                    },
+                    {
+                        "name": "training-comments",
+                        "label": "Comments",
+                        "placeholder": "Enter comments",
+                        "type": "textarea"
+                    }
+                ],
+                "max": 10
+            },
+            "required": false
+        }
+    ]
+}

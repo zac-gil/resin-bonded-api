@@ -1,0 +1,465 @@
+{
+    "id": 3,
+    "name": "Site Record",
+    "sections": [
+        {
+            "name": "Site Details",
+            "fields": [
+                {
+                    "name": "",
+                    "type": "heading",
+                    "label": "Address",
+                    "description": "",
+                    "placeholder": "",
+                    "options": "",
+                    "required": ""
+                },
+                {
+                    "name": "postcode",
+                    "type": "text",
+                    "label": "",
+                    "description": "",
+                    "placeholder": "Enter postcode",
+                    "options": "",
+                    "required": true
+                },
+                {
+                    "name": "address-1",
+                    "type": "text",
+                    "label": "",
+                    "description": "",
+                    "placeholder": "Address Line 1",
+                    "options": "",
+                    "required": true
+                },
+                {
+                    "name": "address-2",
+                    "type": "text",
+                    "label": "",
+                    "description": "",
+                    "placeholder": "Address Line 2",
+                    "options": "",
+                    "required": false
+                },
+                {
+                    "name": "city",
+                    "type": "text",
+                    "label": "",
+                    "description": "",
+                    "placeholder": "Town / City",
+                    "options": "",
+                    "required": true
+                },
+                {
+                    "name": "county",
+                    "type": "text",
+                    "label": "",
+                    "description": "",
+                    "placeholder": "County",
+                    "options": "",
+                    "required": false
+                },
+                {
+                    "name": "country",
+                    "type": "text",
+                    "label": "",
+                    "description": "",
+                    "placeholder": "Country",
+                    "options": {
+                        "selected": "United Kingdom"
+                    },
+                    "required": true
+                },
+                {
+                    "name": "",
+                    "type": "heading",
+                    "label": "Details",
+                    "description": "",
+                    "placeholder": "",
+                    "options": "",
+                    "required": false
+                },
+                {
+                    "name": "power-supply",
+                    "type": "checkbox",
+                    "label": "Power supply on site?",
+                    "description": "",
+                    "placeholder": "",
+                    "options": {
+                        "toggle": [
+                            "power-supply-comments"
+                        ]
+                    },
+                    "required": false
+                },
+                {
+                    "name": "power-supply-comments",
+                    "type": "textarea",
+                    "label": "Comments",
+                    "description": "",
+                    "placeholder": "Enter comments",
+                    "options": {
+                        "hidden": true
+                    },
+                    "required": false
+                },
+                {
+                    "name": "required-tools",
+                    "type": "checkbox",
+                    "label": "Contractor has required tools?",
+                    "description": "",
+                    "placeholder": "",
+                    "options": {
+                        "toggle": [
+                            "required-tools-comments"
+                        ]
+                    },
+                    "required": false
+                },
+                {
+                    "name": "required-tools-comments",
+                    "type": "textarea",
+                    "label": "Comments",
+                    "description": "",
+                    "placeholder": "Enter comments",
+                    "options": {
+                        "hidden": true
+                    },
+                    "required": false
+                },
+                {
+                    "name": "parking-restriction",
+                    "type": "checkbox",
+                    "label": "Are there parking restrictions?",
+                    "description": "",
+                    "placeholder": "",
+                    "options": {
+                        "toggle": [
+                            "parking-restriction-comments"
+                        ]
+                    },
+                    "required": false
+                },
+                {
+                    "name": "parking-restriction-comments",
+                    "type": "textarea",
+                    "label": "Comments",
+                    "description": "",
+                    "placeholder": "Enter comments",
+                    "options": {
+                        "hidden": true
+                    },
+                    "required": false
+                }
+            ]
+        },
+        {
+            "name": "Job Details",
+            "fields": [
+                {
+                    "name": "proposed-date",
+                    "type": "date",
+                    "label": "Proposed Date",
+                    "description": "",
+                    "placeholder": "Enter date",
+                    "options": "",
+                    "required": true
+                },
+                {
+                    "name": "order-placed",
+                    "type": "checkbox",
+                    "label": "Material order placed?",
+                    "description": "",
+                    "placeholder": "",
+                    "options": {
+                        "toggle": [
+                            "order-date",
+                            "delivery-date"
+                        ]
+                    },
+                    "required": false
+                },
+                {
+                    "name": "order-date",
+                    "type": "date",
+                    "label": "Order Date",
+                    "description": "",
+                    "placeholder": "Enter date",
+                    "options": {
+                        "hidden": true
+                    },
+                    "required": false
+                },
+                {
+                    "name": "delivery-date",
+                    "type": "date",
+                    "label": "Delivery Date",
+                    "description": "",
+                    "placeholder": "Enter date",
+                    "options": {
+                        "hidden": true
+                    },
+                    "required": false
+                },
+                {
+                    "name": "job-type",
+                    "type": "textarea",
+                    "label": "Type of Job",
+                    "description": "",
+                    "placeholder": "Enter description",
+                    "options": "",
+                    "required": true
+                },
+                {
+                    "name": "finish",
+                    "type": "textarea",
+                    "label": "Finish",
+                    "description": "",
+                    "placeholder": "Enter description",
+                    "options": "",
+                    "required": true
+                },
+                {
+                    "name": "job-type",
+                    "type": "textarea",
+                    "label": "Type of Job",
+                    "description": "",
+                    "placeholder": "Enter description",
+                    "options": "",
+                    "required": true
+                },
+                {
+                    "name": "area-15",
+                    "type": "number",
+                    "label": "Area at 15mm",
+                    "description": "Area to be laid at a depth of 15mm (predestrian areas)",
+                    "placeholder": "Enter area",
+                    "options": {
+                        "unit": "mm"
+                    },
+                    "required": true
+                },
+                {
+                    "name": "area-18",
+                    "type": "number",
+                    "label": "Area at 18mm",
+                    "description": "Area to be laid at a depth of 18mm (trafficked areas)",
+                    "placeholder": "Enter area",
+                    "options": {
+                        "unit": "mm"
+                    },
+                    "required": true
+                },
+                {
+                    "name": "area-count",
+                    "type": "number",
+                    "label": "How many areas?",
+                    "description": "",
+                    "placeholder": "Enter amount",
+                    "options": {
+                        "max": 10
+                    },
+                    "required": true
+                },
+                {
+                    "name": "team-list",
+                    "type": "list",
+                    "label": "Team Members",
+                    "description": "Please add the name of every member and their role.",
+                    "placeholder": "",
+                    "options": {
+                        "fields": [
+                            {
+                                "name": "personnel-name",
+                                "label": "Name",
+                                "placeholder": "Enter name",
+                                "type": "text"
+                            },
+                            {
+                                "name": "personnel-role",
+                                "label": "Role",
+                                "placeholder": "Enter role",
+                                "type": "text"
+                            }
+                        ],
+                        "max": 8
+                    },
+                    "required": true
+                },
+                {
+                    "name": "edging",
+                    "type": "checkbox",
+                    "label": "Edging and step edging in place?",
+                    "description": "",
+                    "placeholder": "",
+                    "options": {
+                        "toggle": [
+                            "edging-list"
+                        ]
+                    },
+                    "required": false
+                },
+                {
+                    "name": "edging-list",
+                    "type": "list",
+                    "label": "Edging Images",
+                    "description": "Please add descriptive images",
+                    "placeholder": "",
+                    "options": {
+                        "fields": [
+                            {
+                                "name": "edging-image",
+                                "label": "Image",
+                                "type": "image"
+                            },
+                            {
+                                "name": "edging-comments",
+                                "label": "Comments",
+                                "placeholder": "Enter comments",
+                                "type": "textarea"
+                            }
+                        ],
+                        "max": 4
+                    },
+                    "required": false
+                },
+                {
+                    "name": "base-material",
+                    "type": "text",
+                    "label": "Base Material",
+                    "description": "",
+                    "placeholder": "Enter material",
+                    "options": "",
+                    "required": true
+                },
+                {
+                    "name": "base-prepared",
+                    "type": "checkbox",
+                    "label": "Base prepared?",
+                    "description": "",
+                    "placeholder": "",
+                    "options": "",
+                    "required": false
+                },
+                {
+                    "name": "base-material-list",
+                    "type": "list",
+                    "label": "",
+                    "description": "Please add descriptive images",
+                    "placeholder": "",
+                    "options": {
+                        "fields": [
+                            {
+                                "name": "base-material-image",
+                                "label": "Image",
+                                "type": "image"
+                            },
+                            {
+                                "name": "base-material-comments",
+                                "label": "Comments",
+                                "placeholder": "Enter comments",
+                                "type": "textarea"
+                            }
+                        ],
+                        "max": 4
+                    },
+                    "required": false
+                },
+                {
+                    "name": "surface-joint",
+                    "type": "textarea",
+                    "label": "How is the finished surface to be joined to road or pavement?",
+                    "description": "",
+                    "placeholder": "Enter comments",
+                    "options": {
+                        "maxLength": 300
+                    },
+                    "required": true
+                },
+                {
+                    "name": "joint-completed",
+                    "type": "checkbox",
+                    "label": "Road joint completed?",
+                    "description": "",
+                    "placeholder": "",
+                    "options": {
+                        "toggle": [
+                            "joint-list"
+                        ]
+                    },
+                    "required": false
+                },
+                {
+                    "name": "joint-list",
+                    "type": "list",
+                    "label": "Road Joint Images",
+                    "description": "Please add descriptive images",
+                    "placeholder": "",
+                    "options": {
+                        "fields": [
+                            {
+                                "name": "joint-image",
+                                "label": "Image",
+                                "type": "image"
+                            },
+                            {
+                                "name": "joint-comments",
+                                "label": "Comments",
+                                "placeholder": "Enter comments",
+                                "type": "textarea"
+                            }
+                        ],
+                        "max": 2
+                    },
+                    "required": false
+                },
+                {
+                    "name": "site-clear",
+                    "type": "checkbox",
+                    "label": "Site clear?",
+                    "description": "Is there space for work to start? Parking spaces etc.",
+                    "placeholder": "",
+                    "options": {
+                        "toggle": [
+                            "site-clear-list"
+                        ]
+                    },
+                    "required": false
+                },
+                {
+                    "name": "site-clear-list",
+                    "type": "list",
+                    "label": "Site Clear Images",
+                    "description": "Please add descriptive images",
+                    "placeholder": "",
+                    "options": {
+                        "fields": [
+                            {
+                                "name": "site-clear-image",
+                                "label": "Image",
+                                "type": "image"
+                            },
+                            {
+                                "name": "site-clear-comments",
+                                "label": "Comments",
+                                "placeholder": "Enter comments",
+                                "type": "textarea"
+                            }
+                        ],
+                        "max": 4
+                    },
+                    "required": false
+                },
+                {
+                    "name": "job-comments",
+                    "type": "textarea",
+                    "label": "Comments",
+                    "description": "How do you feel the job and training went?",
+                    "placeholder": "",
+                    "options": "",
+                    "required": false
+                }
+            ]
+        }
+    ]
+}
