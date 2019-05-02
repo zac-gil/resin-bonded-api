@@ -5,9 +5,12 @@ const jsonManager = require("../functions/forms.js")
 
 var appRouter = function(app) {
 
-  app.get("/", function(req, res) {
-    res.status(200).send("Welcome to the restful API");
-  });
+  // app.get("/", function(req, res) {
+  //   res.status(200).send("Welcome to the restful API");
+  // });
+
+  // Serve static react app ~ Gil
+  app.use(express.static('build'));
 
   app.get("/database", function(req, res) {
     mongodbClient.connect("mongodb://localhost:3000/YourDB", {
