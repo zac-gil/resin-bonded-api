@@ -9,8 +9,7 @@ var appRouter = function(app) {
   //   res.status(200).send("Welcome to the restful API");
   // });
 
-  // Serve static react app ~ Gil
-  app.use(express.static('build'));
+  
 
   app.get("/database", function(req, res) {
     mongodbClient.connect("mongodb://localhost:3000/YourDB", {
