@@ -656,22 +656,10 @@
                     "placeholder": "",
                     "options": {
                         "options": [
-                            {
-                                "value": "4",
-                                "name": "Very good"
-                            },
-                            {
-                                "value": "3",
-                                "name": "Good"
-                            },
-                            {
-                                "value": "2",
-                                "name": "Satisfactory"
-                            },
-                            {
-                                "value": "1",
-                                "name": "Unsatisfactory"
-                            }
+                            "Very good",
+                            "Good",
+                            "Satisfactory",
+                            "Unsatisfactory"
                         ]
                     },
                     "required": true
