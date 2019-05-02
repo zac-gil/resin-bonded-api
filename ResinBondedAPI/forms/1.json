@@ -128,7 +128,7 @@
                     "required": true,
                     "options": {
                         "selected": "United Kingdom",
-                        "option": [
+                        "options": [
                             "Afghanistan",
                             "Albania",
                             "Algeria",
