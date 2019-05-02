@@ -3,17 +3,8 @@
     "name": "Site Record",
     "sections": [
         {
-            "name": "Site Details",
+            "name": "Site Address",
             "fields": [
-                {
-                    "name": "",
-                    "type": "heading",
-                    "label": "Address",
-                    "description": "",
-                    "placeholder": "",
-                    "options": "",
-                    "required": ""
-                },
                 {
                     "name": "postcode",
                     "type": "text",
@@ -70,15 +61,11 @@
                     },
                     "required": true
                 },
-                {
-                    "name": "",
-                    "type": "heading",
-                    "label": "Details",
-                    "description": "",
-                    "placeholder": "",
-                    "options": "",
-                    "required": false
-                },
+            ]
+        },
+        {
+            "name": "Site Details",
+            "fields": [
                 {
                     "name": "power-supply",
                     "type": "checkbox",

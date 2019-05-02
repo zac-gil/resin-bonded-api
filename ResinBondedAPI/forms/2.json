@@ -3,17 +3,8 @@
     "name": "Training",
     "sections": [
         {
-            "name": "Site Details",
+            "name": "Site Address",
             "fields": [
-                {
-                    "name": "",
-                    "type": "heading",
-                    "label": "Address",
-                    "description": "",
-                    "placeholder": "",
-                    "options": "",
-                    "required": false
-                },
                 {
                     "name": "postcode",
                     "type": "text",
@@ -272,20 +263,16 @@
                         ]
                     }
                 },
-                {
-                    "name": "",
-                    "type": "heading",
-                    "label": "Details",
-                    "description": "",
-                    "placeholder": "",
-                    "options": "",
-                    "required": false
-                },
+            ]
+        }, 
+        {
+            "name": "Site Details",
+            "fields": [
                 {
                     "name": "power-supply",
                     "type": "checkbox",
                     "label": "Power supply on site?",
-                    "description": " ",
+                    "description": "",
                     "placeholder": "",
                     "options": {
                         "toggle": [
@@ -298,7 +285,7 @@
                     "name": "power-supply-comments",
                     "type": "textarea",
                     "label": "Comments",
-                    "description": " ",
+                    "description": "",
                     "placeholder": "Enter comments",
                     "options": {
                         "hidden": true
