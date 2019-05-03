@@ -68,7 +68,7 @@
             "fields": [
                 {
                     "name": "power-supply",
-                    "type": "checkbox",
+                    "type": "checkbox","checked": false,
                     "label": "Power supply on site?",
                     "description": "",
                     "placeholder": "",
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "required-tools",
-                    "type": "checkbox",
+                    "type": "checkbox","checked": false,
                     "label": "Contractor has required tools?",
                     "description": "",
                     "placeholder": "",
@@ -116,7 +116,7 @@
                 },
                 {
                     "name": "parking-restriction",
-                    "type": "checkbox",
+                    "type": "checkbox","checked": false,
                     "label": "Are there parking restrictions?",
                     "description": "",
                     "placeholder": "",
@@ -154,7 +154,7 @@
                 },
                 {
                     "name": "order-placed",
-                    "type": "checkbox",
+                    "type": "checkbox","checked": false,
                     "label": "Material order placed?",
                     "description": "",
                     "placeholder": "",
@@ -275,7 +275,7 @@
                 },
                 {
                     "name": "edging",
-                    "type": "checkbox",
+                    "type": "checkbox","checked": false,
                     "label": "Edging and step edging in place?",
                     "description": "",
                     "placeholder": "",
@@ -321,7 +321,7 @@
                 },
                 {
                     "name": "base-prepared",
-                    "type": "checkbox",
+                    "type": "checkbox","checked": false,
                     "label": "Base prepared?",
                     "description": "",
                     "placeholder": "",
@@ -365,7 +365,7 @@
                 },
                 {
                     "name": "joint-completed",
-                    "type": "checkbox",
+                    "type": "checkbox","checked": false,
                     "label": "Road joint completed?",
                     "description": "",
                     "placeholder": "",
@@ -402,7 +402,7 @@
                 },
                 {
                     "name": "site-clear",
-                    "type": "checkbox",
+                    "type": "checkbox","checked": false,
                     "label": "Site clear?",
                     "description": "Is there space for work to start? Parking spaces etc.",
                     "placeholder": "",
